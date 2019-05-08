@@ -32,8 +32,8 @@
         "label": "Monekoluv Ayu Light",
         "uiTheme": "vs",
         "path": "./monekoluv-ayu-light.json"
-			},
-			{
+      },
+      {
         "label": "Monekoluv Ayu Light Bordered",
         "uiTheme": "vs",
         "path": "./monekoluv-ayu-light-bordered.json"
