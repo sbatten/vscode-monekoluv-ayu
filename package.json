@@ -1,17 +1,17 @@
 {
-  "name": "ayu",
-  "displayName": "Ayu",
-  "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
-  "version": "0.18.0",
-  "publisher": "teabyii",
+  "name": "monekoluv-ayu",
+  "displayName": "Monekoluv Ayu",
+  "description": "A simple theme with bright colors derived from Ayu with personal tweaks for all day long comfortable work.",
+  "version": "0.1.0",
+  "publisher": "monekoluv",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsenjoy/vscode-ayu"
+    "url": "https://github.com/sbatten/vscode-monekoluv-ayu"
   },
   "bugs": {
-    "url": "https://github.com/jsenjoy/vscode-ayu/issues",
-    "email": "teabyii@gmail.com"
+    "url": "https://github.com/sbatten/vscode-monekoluv-ayu/issues",
+    "email": "monekoluv@outlook.com"
   },
   "engines": {
     "vscode": "^1.13.0"
@@ -20,50 +20,23 @@
     "Themes"
   ],
   "keywords": [
-    "icon-theme",
     "theme",
-    "ayu"
+    "ayu",
+    "monekoluv"
   ],
   "homepage": "https://github.com/jsenjoy/vscode-ayu",
   "icon": "assets/logo.png",
   "contributes": {
     "themes": [
       {
-        "label": "Ayu Dark",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dark.json"
-      },
-      {
-        "label": "Ayu Dark Bordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dark-bordered.json"
-      },
-      {
-        "label": "Ayu Light",
+        "label": "Monekoluv Ayu Light",
         "uiTheme": "vs",
-        "path": "./ayu-light.json"
-      },
-      {
-        "label": "Ayu Light Bordered",
+        "path": "./monekoluv-ayu-light.json"
+			},
+			{
+        "label": "Monekoluv Ayu Light Bordered",
         "uiTheme": "vs",
-        "path": "./ayu-light-bordered.json"
-      },
-      {
-        "label": "Ayu Mirage",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-mirage.json"
-      },
-      {
-        "label": "Ayu Mirage Bordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-mirage-bordered.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "ayu",
-        "label": "Ayu",
-        "path": "./ayu-icons.json"
+        "path": "./monekoluv-ayu-light-bordered.json"
       }
     ]
   },
